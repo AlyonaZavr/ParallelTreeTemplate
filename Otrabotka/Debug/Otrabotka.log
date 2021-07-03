@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Алёна\source\repos\Otrabotka\func.h(13,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka\func.h(16,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Otrabotka.vcxproj -> C:\Users\Алёна\source\repos\Otrabotka\Debug\Otrabotka.exe
