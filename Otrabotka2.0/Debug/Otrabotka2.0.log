@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(62,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(65,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(77,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(56): warning C4715: podbor: значение возвращается не при всех путях выполнения
+  Otrabotka2.0.vcxproj -> C:\Users\Алёна\source\repos\Otrabotka2.0\Debug\Otrabotka2.0.exe
