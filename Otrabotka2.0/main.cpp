@@ -7,17 +7,11 @@ int main()
 {
 	setlocale(LC_ALL, "Rus");
 	string first, second, result;
-	vector<char> letterarr;
-	first = "aa";
-	second = "aa";
-	result = "bbaa";
+	first = "ab";
+	second = "cab";
+	result = "cab";
 	cout << "ребус: " << first << " * " << second << " = " << result << endl;
-	//ABC(letterarr, first, second, result);
-
-	vector<int> v(3, -1);
-	//cout << v.size() << endl;
-	podbor(0, v);
-	/*for (int i = 0; i < 5; i++)
-		cout << podbor(0, v)[i] << endl;*/
+	ABC(first, second, result);
+	cout << "больше решений нет" << endl;
 	return 1;
 }
