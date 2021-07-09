@@ -1,9 +1,11 @@
 ﻿  main.cpp
-C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(13,21): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(26,21): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(39,21): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(73,25): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(93,11): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(96,11): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(111,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(12,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(25,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(38,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(74,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(102,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(105,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\func.h(120,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Алёна\source\repos\Otrabotka2.0\main.cpp(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Алёна\source\repos\Otrabotka2.0\main.cpp(39,23): warning C4018: <: несоответствие типов со знаком и без знака
   Otrabotka2.0.vcxproj -> C:\Users\Алёна\source\repos\Otrabotka2.0\Debug\Otrabotka2.0.exe

@@ -2,7 +2,6 @@
 #include <string>
 #include <iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
 
 bool check(vector<int> numberarr, string first, string second, string result, vector<char> abc)//функция проверки значений
@@ -51,8 +50,11 @@ bool check(vector<int> numberarr, string first, string second, string result, ve
 	return 0;
 }
 
-void podbor(int index, vector<int> numberarr, string first, string second, string result, vector<char> abc)//функция подбора значений. строки входят в эту функцию из-за невозможности вынести проверку из нее
+void podbor(vector<string>&resultetion,int index, vector<int> numberarr, string first, string second, string result, vector<char> abc)//функция подбора значений. строки входят в эту функцию из-за невозможности вынести проверку из нее
 {
+	//vector<string> resultetion;
+	string str ;
+	string tempstr;
 		for (int i = 0; i < 10; i++)//выбираем цифру
 		{
 			bool k = 1;//проверяем, что она еще не была выбрана раньше
@@ -71,20 +73,28 @@ void podbor(int index, vector<int> numberarr, string first, string second, strin
 					{
 						for (int j = 0; j < numberarr.size(); j++)
 						{
-							cout << numberarr[j];
+							//cout << abc[j];
+							//cout <<abc[j]<<"; ";
+							tempstr = abc[j];
+							str += tempstr + " = " + to_string(numberarr[j]) + "; ";
+							
+
+							//cout<<str<< "*"<<resultetion[0]<<"*";
 						}
-						cout << endl;
+						resultetion.push_back(str);
+						//cout << endl;
 					}
 				}
 				else//если еще есть незаполненные значения, вызываем заново
 				{
-					podbor(index + 1, numberarr, first, second, result, abc);
+					podbor(resultetion,index + 1, numberarr, first, second, result, abc);
 				}
 			}
 		}
+		//return resultetion;
 }
 
-bool ABC(string first, string second, string result)//составляет алфавит множества(на выходе строка) дабы сопоставить его с цифрами методом подборы
+bool ABC(vector<string>& resultetion,string first, string second, string result)//составляет алфавит множества(на выходе строка) дабы сопоставить его с цифрами методом подборы
 {
 	vector<char> abcd;//будущий алфавит
 	int i = 0;
@@ -111,7 +121,7 @@ bool ABC(string first, string second, string result)//составляет алфавит множест
 		abcd.push_back(abc[i]);
 
 	vector<int> v(abcd.size(), -1);//будущий алфавит цифр
-	podbor(0, v, first, second, result, abcd);//подбираем ответ
+	podbor(resultetion,0, v, first, second, result, abcd);//подбираем ответ
 
 	return 1;
 }
